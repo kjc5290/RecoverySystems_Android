@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/logout"
+
+        app:showAsAction="never"
+        android:title="Logout"
+        
+        />
+    <item android:id="@+id/event_choose"
+        app:showAsAction="never"
+        android:title="Change Event"
+
+        />
+
+
+    <item android:id="@+id/my_offers"
+        app:showAsAction="never"
+        android:title="My Offers"
+        />
+
+    <item android:id="@+id/offer_store"
+        app:showAsAction="never"
+        android:title="Offer Store"
+        />
+
+    <item android:id="@+id/profile"
+        app:showAsAction="never"
+        android:title="My Profile"
+        />
+    <item android:id="@+id/event_schedule"
+        app:showAsAction="never"
+        android:title="Event Schedule"
+        />
+
+    <item android:id="@+id/EventMap"
+        app:showAsAction="never"
+        android:title="Event Map"
+        />
+
+    <item android:id="@+id/event_surveys"
+        app:showAsAction="never"
+        android:title="Event Surveys"
+        />
+
+    <item android:id="@+id/photo_contest"
+        app:showAsAction="never"
+        android:title="PhotoContest"
+        />
+    <item android:id="@+id/activity_feed"
+        app:showAsAction="never"
+        android:title="Activity Feed"
+        />
+    
+</menu>

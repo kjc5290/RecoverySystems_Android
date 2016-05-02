@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/app_bar"/>
+    <TextView
+        android:background="#f2f2f2"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/title"
+    />
+    <View
+        android:background="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <com.parse.ParseImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/thumbnail"
+      />
+
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:minWidth="300dp"
+        android:textColor="#fff"
+        android:background="#0071bc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy offer with points!!"
+        android:id="@+id/redeemButton"
+
+        />
+
+    <ScrollView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/descriptionText"
+
+            />
+    </ScrollView>
+
+
+
+
+</LinearLayout>

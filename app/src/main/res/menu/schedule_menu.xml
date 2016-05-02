@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/show_favs"
+        android:icon="@drawable/hearticon"
+        android:title="Show Favorites"
+        app:showAsAction="ifRoom"
+        android:visible="true"
+        />
+    <item android:id="@+id/hide_favs"
+        android:icon="@drawable/hearticonunselected"
+        android:title="Hide Favorites"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        />
+
+</menu>

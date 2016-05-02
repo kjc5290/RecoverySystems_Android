@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<include layout="@layout/app_bar"/>
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.parse.ParseImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/thumbnail"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/descriptionText"
+        android:layout_below="@+id/redeemButton"
+        android:maxLines = "10"
+        android:scrollbars = "vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/redeemButton"
+        android:layout_below="@+id/thumbnail"
+        android:text="Redeem Offer!"
+        />
+
+
+</RelativeLayout>
+
+    </LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <include layout="@layout/app_bar"/>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <com.parse.ParseImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventPhoto"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.49"
+        android:adjustViewBounds="true"
+        />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:background="@color/primaryColorDark"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="Visit Website"
+        android:id="@+id/websiteBtn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:background="@color/primaryColorDark"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="Twitter"
+        android:id="@+id/twitterBtn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:background="@color/primaryColorDark"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:id="@+id/facebookBtn"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+</ScrollView>
+    </LinearLayout>
